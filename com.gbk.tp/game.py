@@ -47,7 +47,7 @@ class Game:
         self.subjects.append(Subject((44, 495)))
         self.subjects.append(Subject((44, 565)))
 
-        self.background = pygame.image.load('brs.png')
+        self.background = pygame.image.load('background.png')
         self.final_screen = pygame.image.load('gameover.jpg')
 
         self.request = False
